@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin: 0; padding: 0;}
+        .hi{
+            height: 15px;
+            width: 50px;
+            animation: zoom;
+            animation-duration: 5s;
+        }
+        .hi p{
+            font-size: 25px;
+            font-weight: 700;
+            color: aqua;
+        }
+        @keyframes  zoom {
+           0%{
+            font-size: medium;
+            margin-top: 25px;
+            margin-left: 50px;
+           }
+           50%{
+            font-size: smaller;
+            
+            margin-bottom: 0px;
+           }
+           100%{
+            font-size: smaller;
+            margin-bottom: 50px;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="hi">
+    <p>Hello</p>
+    </div>
+</body>
+</html>
